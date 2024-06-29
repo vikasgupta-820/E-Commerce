@@ -44,6 +44,6 @@ const manifestForPlugIn = {
 }
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',
+  base: '/E-Commerce/',
   plugins: [react(), VitePWA(manifestForPlugIn)],
 })

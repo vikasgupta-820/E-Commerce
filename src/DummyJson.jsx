@@ -27,10 +27,10 @@ export const products = [
   export const product = {
     name: 'Basic Tee 6-Pack',
     price: '$192',
-    href: '/',
+    href: '/E-Commerce',
     breadcrumbs: [
-      { id: 1, name: 'Men', href: '/' },
-      { id: 2, name: 'Clothing', href: '/' },
+      { id: 1, name: 'Men', href: '/E-Commerce' },
+      { id: 2, name: 'Clothing', href: '/E-Commerce' },
     ],
     colors: [
       { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
@@ -185,7 +185,7 @@ export const products = [
       },
     ],
     pages: [
-      { name: "Company", href: "/" },
+      { name: "Company", href: "/E-Commerce" },
       { name: "Stores", href: "/stores" },
     ],
   };

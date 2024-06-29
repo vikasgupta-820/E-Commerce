@@ -21,7 +21,7 @@ import {callouts} from "../../../DummyJson"
                     />
                   </div>
                   <h3 className="mt-6 text-sm text-gray-500">
-                    <Link to={"/"}>
+                    <Link to={"/E-Commerce"}>
                       <span className="absolute inset-0" />
                       {callout.name}
                     </Link>

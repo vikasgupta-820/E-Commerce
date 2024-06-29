@@ -16,7 +16,7 @@ function App() {
    
     <NavBar/>
     <Routes>
-      <Route exact path='/' element={<Home/>}/>
+      <Route exact path='/E-Commerce' element={<Home/>}/>
       <Route exact path='/details/gid://shopify/Product/:id' element={<ProductDetails/>}/>
       <Route exact path='/stores' element={<Stores/>}/>
     </Routes>
